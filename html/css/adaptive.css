@@ -1,0 +1,55 @@
+/*Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991px) {
+
+
+    .header_container {
+        height: 200px;
+    }
+
+    .navbar {
+        top: 30px;
+        padding: 0.5rem 1rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .main_content .col-lg-6:first-child .unit:first-child{
+        border-top: none;
+    }
+
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767px) {
+
+
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    .unit:first-child {
+        border-top: none;
+    }
+
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+
+    aside{
+        background-color: #1b141f;
+        box-sizing: content-box;
+        float: right;
+        margin: 0 1rem 1rem;
+        padding: 1rem 1rem 0;
+        position: relative;
+    }
+
+
+}
