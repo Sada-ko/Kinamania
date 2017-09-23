@@ -15,101 +15,189 @@
     <!-- Custom styles for this template -->
     <link href="css/app.css" rel="stylesheet">
     <link href="css/adaptive.css" rel="stylesheet">
+
+    <!--font-awesome-->
+    <script src="https://use.fontawesome.com/79ca9ae758.js"></script>
+
 </head>
 
 <body>
 
-<!--Основной блок с последним видео-->
-<div class="main_last_video">
+<!--Основной блок с последним видео, всеми меню и прочим-->
+<div class="main_last_video_wrapper">
 
-    <!--Шапка с меню-->
-    <div class="header_container">
+    <div class="bg_wrapper">
 
-        <nav class="navbar navbar-expand-lg navbar-inverse">
+        <!--Шапка с меню-->
+        <div class="header_container">
 
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                    data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <nav class="navbar navbar-expand-lg navbar-inverse">
 
-            <!--Logotype-->
-            <a class="navbar-brand border-0" href="#">
-                <div class="logotype"></div>
-                <div class="slogan"></div>
-            </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                        data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse justify-content-md-center"
-                 id="navbarsExampleDefault">
-                <ul class="navbar-nav">
+                <!--Logotype-->
+                <a class="navbar-brand border-0" href="#">
+                    <div class="logotype"></div>
+                    <div class="slogan"></div>
+                </a>
 
-                    <li class="nav-item dropdown video d-flex align-items-center">
+                <div class="collapse navbar-collapse justify-content-md-center"
+                     id="navbarsExampleDefault">
+                    <ul class="navbar-nav">
 
-                        <a class="nav-link dropdown-toggle" href="#"
-                           id="dropdown_1"
-                           data-toggle="dropdown" aria-haspopup="true"
-                           aria-expanded="false">видео</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown_1">
-                            <a class="dropdown-item" href="#">Проклятие Серого Слонёнка</a>
-                            <a class="dropdown-item" href="#">Один день детства</a>
-                            <a class="dropdown-item" href="#">Dendy Chronicles</a>
-                            <a class="dropdown-item" href="#">Dendy Memories</a>
-                            <a class="dropdown-item" href="#">На Кухне</a>
-                            <a class="dropdown-item" href="#">Спец-выпуски</a>
-                            <a class="dropdown-item" href="#">Другие видео</a>
-                        </div>
-                    </li>
+                        <li class="nav-item dropdown video d-flex align-items-center">
 
-                    <li class="nav-item dropdown music d-flex align-items-center">
+                            <a class="nav-link dropdown-toggle" href="#"
+                               id="dropdown_1"
+                               data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">видео</a>
 
-                        <a class="nav-link dropdown-toggle" href="#"
-                           id="dropdown_2"
-                           data-toggle="dropdown" aria-haspopup="true"
-                           aria-expanded="false">музыка</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown_2">
-                            <a class="dropdown-item" href="#">Каверы</a>
-                            <a class="dropdown-item" href="#">Песни П. Гринева</a>
-                            <a class="dropdown-item" href="#">Саундтреки</a>
-                        </div>
-                    </li>
+                            <div class="dropdown-menu" aria-labelledby="dropdown_1">
+                                <a class="dropdown-item" href="#">Проклятие Серого Слонёнка</a>
+                                <a class="dropdown-item" href="#">Один день детства</a>
+                                <a class="dropdown-item" href="#">Dendy Chronicles</a>
+                                <a class="dropdown-item" href="#">Dendy Memories</a>
+                                <a class="dropdown-item" href="#">На Кухне</a>
+                                <a class="dropdown-item" href="#">Спец-выпуски</a>
+                                <a class="dropdown-item" href="#">Другие видео</a>
+                            </div>
+                        </li>
 
-                    <li class="nav-item dropdown chronicles d-flex align-items-center">
+                        <li class="nav-item dropdown music d-flex align-items-center">
 
-                        <a class="nav-link dropdown-toggle" href="#"
-                           id="dropdown_3"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">kinaхроника
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown_3">
-                            <a class="dropdown-item" href="#">Наши 90-ые</a>
-                            <a class="dropdown-item" href="#">Кинаман</a>
-                            <a class="dropdown-item" href="#">Арты</a>
-                            <a class="dropdown-item" href="#">Съёмки</a>
-                            <a class="dropdown-item" href="#">Заметки</a>
-                            <a class="dropdown-item" href="#">Интервью</a>
-                        </div>
-                    </li>
+                            <a class="nav-link dropdown-toggle" href="#"
+                               id="dropdown_2"
+                               data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">музыка</a>
 
-                    <li class="nav-item dropdown live d-flex align-items-center">
+                            <div class="dropdown-menu" aria-labelledby="dropdown_2">
+                                <a class="dropdown-item" href="#">Каверы</a>
+                                <a class="dropdown-item" href="#">Песни П. Гринева</a>
+                                <a class="dropdown-item" href="#">Саундтреки</a>
+                            </div>
+                        </li>
 
-                        <a class="nav-link dropdown-toggle" href="#"
-                           id="dropdown_4"
-                           data-toggle="dropdown" aria-haspopup="true"
-                           aria-expanded="false">live!</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown_4">
-                            <a class="dropdown-item" href="#">Kinamania Live!</a>
-                            <a class="dropdown-item" href="#">На рубеже PlayStation</a>
-                        </div>
-                    </li>
+                        <li class="nav-item dropdown chronicles d-flex align-items-center">
 
-                </ul>
+                            <a class="nav-link dropdown-toggle" href="#"
+                               id="dropdown_3"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">kinaхроника
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdown_3">
+                                <a class="dropdown-item" href="#">Наши 90-ые</a>
+                                <a class="dropdown-item" href="#">Кинаман</a>
+                                <a class="dropdown-item" href="#">Арты</a>
+                                <a class="dropdown-item" href="#">Съёмки</a>
+                                <a class="dropdown-item" href="#">Заметки</a>
+                                <a class="dropdown-item" href="#">Интервью</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown live d-flex align-items-center">
+
+                            <a class="nav-link dropdown-toggle" href="#"
+                               id="dropdown_4"
+                               data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">live!</a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdown_4">
+                                <a class="dropdown-item" href="#">Kinamania Live!</a>
+                                <a class="dropdown-item" href="#">На рубеже PlayStation</a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+
+        </div>
+
+        <!--Основной блок с последним видео-->
+        <div class="main_last_video row">
+
+            <div class="col-6">
+
+                <div class="preview">
+                    <img src="http://img.youtube.com/vi/zxSDQxej9gI/maxresdefault.jpg" alt="">
+                </div>
+
+                <div class="desc">
+                    <div class="loaded small text-muted">Загружен 30 июня 2017</div>
+                    <div class="viewed small text-muted"><span>2025</span> просмотров</div>
+                </div>
 
             </div>
-        </nav>
+
+            <div class="col-6">
+
+                <div class="rubric">
+                    <a href="#">на кухне</a>
+                </div>
+
+                <h1>
+                    <a href="#">Dendy Chronicles Mini&nbsp;#1</a>
+                </h1>
+
+                <p>Игра <a href="#">&laquo;Капитан Америка&raquo;</a> на&nbsp;Денди&nbsp;&mdash; это недостижимый святой грааль Култхарда. Это игра, которую он&nbsp;пытается одолеть на&nbsp;протяжении десятилетий, но&nbsp;всякий раз победа ускользает от&nbsp;него. Но, быть может, вместе нам удастся таки расколоть этот крепкий орешек?..</p>
+
+            </div>
+
+        </div>
+
+        <div class="header_pic dark"></div>
+        <div class="header_pic light"></div>
 
     </div>
 
-    <div class="header_pic dark"></div>
-    <div class="header_pic light"></div>
+    <!--Второе меню, которое снизу и поиск-->
+    <div class="second_menu">
+
+        <!--Второе меню-->
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">свежие ролики</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">dendy chronicles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">на кухне</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">один день детства</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ещё</a>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </li>
+
+            <!--Поиск-->
+            <form class="form-inline">
+                <fieldset>
+                    <input class="form-control mr-sm-2" type="text" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </fieldset>
+            </form>
+
+        </ul>
+
+    </div>
 
 </div>
 
@@ -128,13 +216,13 @@
                     </div>
 
                     <h1>На кухне: Captain America and the Avengers</h1>
+
                     <div class="date small text-muted font-italic">30 июня 2017</div>
                 </div>
 
                 <div>
                     <!--<iframe width="637" height="450" src="https://www.youtube.com/embed/6yra-euXtXY" frameborder="0" allowfullscreen></iframe>-->
-                    <iframe width="470" height="265"
-                            src="https://www.youtube.com/embed/THm9SbCaO-o" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="470" height="265" src="https://www.youtube.com/embed/THm9SbCaO-o" frameborder="0" allowfullscreen></iframe>
                 </div>
 
                 <p>Игра <a href="#">&laquo;Капитан Америка&raquo;</a> на&nbsp;Денди&nbsp;&mdash; это недостижимый святой грааль Култхарда. Это игра, которую он&nbsp;пытается одолеть на&nbsp;протяжении десятилетий, но&nbsp;всякий раз победа ускользает от&nbsp;него. Но, быть может, вместе нам удастся таки расколоть этот крепкий орешек?..</p>
@@ -156,6 +244,7 @@
                         Ностальгаунтлет #12
                     </a>
                     </h2>
+
                     <div class="date small text-muted font-italic">22 июня 2017</div>
                 </div>
 
@@ -183,6 +272,7 @@
                             На съёмках: пауза
                         </a>
                     </h2>
+
                     <div class="date small text-muted font-italic">11 июня 2017</div>
                 </div>
 
@@ -201,6 +291,7 @@
                         <a href="#">
                             Ностальгаунтлет #11</a>
                     </h2>
+
                     <div class="date small text-muted font-italic">11 июня 2017</div>
                 </div>
 
@@ -210,7 +301,7 @@
                 </div>-->
 
                 <a href="#">
-                <img class="img-fluid" src="http://img.youtube.com/vi/FqE73PdITew/mqdefault.jpg">
+                    <img class="img-fluid" src="http://img.youtube.com/vi/FqE73PdITew/mqdefault.jpg">
                 </a>
 
             </div>
@@ -244,6 +335,7 @@
                     <h2>
                         <a href="#">Dendy Chronicles Mini #4</a>
                     </h2>
+
                     <div class="date small text-muted font-italic">16 июня 2017</div>
                 </div>
 
@@ -259,7 +351,6 @@
                 <p>Кинаман и&nbsp;Бэтмен. И&nbsp;опять всё не&nbsp;как у&nbsp;людей...</p>
 
             </div>
-
 
 
             <div class="unit teasing">
