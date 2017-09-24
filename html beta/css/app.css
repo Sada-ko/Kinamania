@@ -92,9 +92,9 @@ img{
 .navbar {
     padding: 0.5rem 4rem;
     font-family: 'pixelcyr';
-    z-index: 1;
     position: relative;
     top: 50px;
+    z-index: 2;
 }
 
 .header_container {
@@ -247,46 +247,6 @@ img{
     content: "\0408";
 }
 
-/* dropdown */
-.navbar .dropdown-menu {
-    background-color: #090915;
-    border: 2px solid rgb(192, 95, 102);
-    border-radius: 0;
-    box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.4);
-}
-
-.navbar .dropdown-menu::after {
-    background-color: #090915;
-    border-right: 2px solid rgb(192, 95, 102);
-    border-top: 2px solid rgb(192, 95, 102);
-    box-sizing: initial;
-    content: "";
-    display: block;
-    height: 5px;
-    left: 60px;
-    position: absolute;
-    top: -5px;
-    transform: rotate(-45deg);
-    width: 5px;
-}
-
-.navbar .dropdown-item {
-    color: rgb(192, 95, 102);
-    position: relative;
-}
-
-.dropdown-item::before {
-    background-color: rgb(192, 95, 102);
-    content: "";
-    display: inline-block;
-    height: 3px;
-    left: 15px;
-    position: absolute;
-    top: 13px;
-    width: 3px;
-}
-/* dropdown done */
-
 /*  menu done  */
 
 
@@ -397,7 +357,7 @@ img{
     height: 550px;
     margin: 0 auto;
     position: relative;
-    width: 60%;
+    width: 70%;
     z-index: 1;
 }
 
@@ -420,6 +380,27 @@ img{
     color: white;
 }
 
+.main_last_video .preview{
+    border: none;
+    display: block;
+}
+
+.main_last_video .preview img{
+    transition: .2s;
+}
+
+.main_last_video > div{
+    padding: 0 1.5rem;
+}
+
+.main_last_video > div:first-child{
+    padding-left: 0;
+}
+
+.main_last_video > div:last-child{
+    padding-right: 0;
+}
+
 .second_menu a{
     color: #7c7a7e;
     line-height: 37px;
@@ -427,6 +408,7 @@ img{
 
 .second_menu a:hover {
     color: rgb(192, 95, 102);
+    border: none;
 }
 
 .second_menu ul li{
@@ -440,20 +422,33 @@ img{
     margin-right: 1.5rem;
 }
 
-.second_menu form fieldset {
+.second_menu .search-form{
+    width: 160px;
+}
+
+.second_menu .search-form fieldset {
     position: relative;
 }
 
-.second_menu form input.form-control{
+.second_menu .search-form input.form-control{
     border: none;
     background-color: #261f2a;
+    opacity: .7;
     padding-left: 2rem;
     padding-bottom: 3px;
     padding-top: 3px;
-    width: 150px;
+    width: 120px;
+    transition: .2s;
 }
 
-.second_menu form button{
+.second_menu .search-form input.form-control:focus{
+    opacity: 1;
+    background-color: #261f2a;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, .1);
+    width: 160px;
+}
+
+.second_menu .search-form button{
     border: medium none;
     color: #7c7a7e;
     font-size: 0.9rem;
@@ -476,6 +471,57 @@ img{
 
 
 
+/* dropdown */
+.dropdown-menu {
+    background-color: #090915;
+    border: 2px solid rgb(192, 95, 102);
+    border-radius: 0;
+    box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.dropdown-menu::after {
+    background-color: #090915;
+    border-right: 2px solid rgb(192, 95, 102);
+    border-top: 2px solid rgb(192, 95, 102);
+    box-sizing: initial;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 30px;
+    position: absolute;
+    top: -5px;
+    transform: rotate(-45deg);
+    width: 5px;
+}
+
+a.dropdown-item {
+    color: rgb(192, 95, 102);
+    position: relative;
+    line-height: 1rem;
+}
+
+.dropdown-divider {
+    border-top: 2px solid rgba(192, 95, 102, .3);
+}
+
+.dropdown-item::before {
+    background-color: rgb(192, 95, 102);
+    content: "";
+    display: inline-block;
+    height: 3px;
+    left: 15px;
+    position: absolute;
+    top: 13px;
+    width: 3px;
+}
+
+.dropdown-item:hover{
+    border: none !important;
+}
+/* dropdown done */
+
+
+
 
 /*=========    content    =============*/
 .container.main_content {
@@ -487,6 +533,90 @@ img{
 }
 
 
+
+
+/*Кнопки с курсором*/
+.button_container{
+    padding-top: 1rem;
+}
+
+.button_container a{
+    margin-right: 3rem;
+}
+
+.button_container a:last-child{
+    margin-right: 0;
+}
+
+.moving_cursor{
+    border: none;
+    text-transform: uppercase;
+    transition: .2s;
+    color: #7c7a7e;
+    position: relative;
+    letter-spacing: .2px;
+}
+
+.moving_cursor:before{
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    content: "";
+    background-image: url("../img/moving_cursor.gif");
+    background-size: contain;
+    position: absolute;
+    left: -20px;
+    top: 2px;
+    opacity: 0;
+    transition: .2s;
+}
+
+.moving_cursor:hover{
+    color: white;
+    border: none;
+}
+
+.moving_cursor:hover:before{
+    opacity: 1;
+}
+/*Кнопки с курсором*/
+
+
+/*Алерт с новостью*/
+.breaking-news{
+    background-color: rgb(103, 56, 67);
+    border: none;
+    border-radius: 0;
+    color: #140e19;
+}
+
+.alert-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.alert-danger a,
+.alert-danger .rubric a{
+    color: rgb(9, 9, 21);
+}
+
+.alert-danger a{
+    border-bottom: 1px solid rgba(9, 9, 21, .3);
+}
+
+.alert-danger a:hover{
+    color: rgb(192, 95, 102);
+    border-bottom-color: rgba(192, 95, 102, .3);
+}
+
+.breaking-news .rubric{
+    text-align: right;
+    font-size: 1rem;
+}
+
+.breaking-news .news-body{
+    text-align: left;
+}
 
 
 
