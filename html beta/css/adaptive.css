@@ -88,6 +88,10 @@
         padding-right: 1rem;
     }
 
+    .owl-prev {
+        left: -10px;
+    }
+
     .main_last_video .left{
         display: none;
     }
@@ -145,6 +149,10 @@
         text-align: center;
     }
 
+    .one-day-childhood img {
+        width: 70%;
+    }
+
 }
 
 
@@ -157,6 +165,15 @@
 
     .scroll-menu-wrapper{
         display: inline-flex;
+    }
+
+    .navbar {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .one-day-childhood .row > div {
+        padding: 0 1.2rem;
     }
 
 }
@@ -177,8 +194,49 @@
 }
 
 
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+
+    .second_menu .nav-item {
+        padding: 0 0.5rem;
+    }
+
+    .nav-link {
+        padding: 0 0.5rem 0.2rem;
+    }
+
+}
+
+
 /*Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199px) {
+
+    .bg-dark {
+        background-color: rgb(12, 11, 24) !important;
+    }
+
+    .navbar-collapse {
+        padding-right: 0;
+    }
+
+
+
+    /*Главное меню, подсветка*/
+
+    .navbar-collapse .nav-item:hover::before,
+    .navbar-collapse .nav-item:hover .nav-link {
+        color: white;
+    }
+
+    .navbar-collapse .nav-item.show::before,
+    .navbar-collapse .nav-item.show .nav-link {
+        color: rgb(192, 95, 102);
+    }
+
+
+    /*Главное меню, подсветка*/
+
+
 
     aside{
         background-color: #1b141f;
@@ -204,8 +262,24 @@
 }
 
 
+/*Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    .navbar {
+        padding: 0.5rem 4rem;
+    }
+
+    .bg-dark {
+        background-color: transparent !important;
+    }
+
+}
+
+
 /*Large devices (desktops, 1400px and up)*/
-@media (min-width: 1399px) {
+@media (min-width: 1400px) {
+
+
     .base_article section,
     .base_article > p{
         width: 970px;
