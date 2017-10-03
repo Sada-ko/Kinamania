@@ -1,15 +1,9 @@
 /*Medium devices (tablets, less than 992px)*/
-
 @media (max-width: 991px) {
 
 
     .header_container {
-        height: 200px;
-    }
-
-    .navbar {
-        top: 30px;
-        padding: 0.5rem 1rem;
+        /*height: 200px;*/
     }
 
     .container {
@@ -20,15 +14,74 @@
         border-top: none;
     }
 
+    /*Floor Divider*/
+    .floor-divider {
+        margin: -1px -1rem;
+    }
+
+    .floor-divider .container,
+    .floor-divider .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .floor-divider .row > div{
+        margin: 1rem 0;
+    }
+    /*Floor Divider*/
+
 }
 
-/*Small devices (landscape phones, less than 768px)*/
 
+/*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) {
 
-    .header_container {
-        height: 150px;
+    .navbar {
+        padding: 0.5rem 1rem;
     }
+
+    /*Dropdown Menu*/
+    .header_container {
+        /*height: 150px;*/
+    }
+
+    .nav-item.dropdown {
+        margin-left: 0;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+        border: none;
+    }
+
+    .navbar-nav {
+        padding-left: 60px;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+
+    .dropdown-menu::after {
+        /*display: none;*/
+        left: 47px;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 30px;
+        left: -26px;
+    }
+
+    .navbar-dark .navbar-nav .nav-item.show > a,
+    .navbar-collapse .nav-item.show::before{
+        color: rgb(192, 95, 102);
+    }
+
+    .navbar-collapse .nav-item::before {
+        font-size: 1rem;
+    }
+    /*Dropdown Menu*/
 
     .container-fluid {
         padding-left: 1rem;
@@ -74,14 +127,6 @@
         text-align: center;
     }
 
-    /*.second_menu .search-form button {*/
-        /*left: 35px;*/
-    /*}*/
-
-    /*.second_menu .search-form:target button {*/
-        /*left: 0px;*/
-    /*}*/
-
     .second_menu .search-form input.form-control:focus {
         width: 200px;
     }
@@ -95,7 +140,13 @@
         width: 200px;
     }
 
+    .floor-divider .container,
+    .floor-divider .container{
+        text-align: center;
+    }
+
 }
+
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
@@ -118,7 +169,13 @@
         border-top: none;
     }
 
+    .floor-divider.kinaman .container,
+    .floor-divider.one-day-childhood .container {
+        width: 800px;
+    }
+
 }
+
 
 /*Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199px) {
