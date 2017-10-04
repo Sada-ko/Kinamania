@@ -706,6 +706,21 @@ a.dropdown-item {
     font-style: italic;
 }
 
+.videos-list .video-unit.more{
+    width: 100px;
+    /*color: #090915;*/
+    padding: 70px 30px;
+    /*display: inline-block;*/
+}
+
+.videos-list .video-unit.more a{
+    border: none;
+}
+
+.fa-inverse {
+    color: #090915 !important;
+}
+
 
 /*owl-carousel*/
 .owl-prev, .owl-next{
@@ -891,69 +906,6 @@ a.dropdown-item {
 }
 /*Floor Divider*/
 
-
-
-/*  article  */
-
-.side_menu, .base_article{
-    padding-top: 2.5rem;
-    max-width: 770px;
-}
-
-.side_menu, .base_article img{
-    margin-bottom: 1rem;
-}
-
-.base_article section,
-.base_article p{
-    max-width: 770px;
-}
-
-aside {
-    color: #636c72;
-    font-size: 0.8rem;
-    margin-left: 790px;
-    width: 200px;
-    position: absolute;
-}
-
-aside img{
-    max-width: 200px;
-}
-
-p.photo_desc{
-    font-size: 0.8rem;
-    font-style: italic;
-}
-
-/*  article done  */
-
-
-
-
-
-/*  side menu  */
-
-.side_menu{
-    font-size: .8rem;
-}
-
-.side_menu li{
-    list-style: none;
-    margin-bottom: .5rem;
-}
-
-.side_menu a{
-    display: inline;
-    padding: 0 0 .1rem 0;
-}
-
-.side_menu .active{
-    font-weight: bold;
-    color: rgb(192, 95, 102);
-}
-
-/*  side menu done  */
 
 
 
