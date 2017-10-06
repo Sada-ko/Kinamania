@@ -23,6 +23,10 @@ body {
     /*font-family: 'Source Sans Pro', sans-serif;*/
     font-family: 'Fira Sans', sans-serif;
     color: white;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
 }
 
 
@@ -168,7 +172,7 @@ img{
 
 /*  menu  */
 .nav-link {
-    padding: 0 0.5rem 0.2rem;
+    padding: 0.1rem 0.5rem;
     border: none;
 }
 
@@ -199,7 +203,7 @@ img{
     border-style: solid;
     border-width: 2px;
     padding-left: 0.3rem;
-    padding-right: 0.2rem;
+    padding-right: 0.3rem;
     text-shadow: 1px 1px 0 #903c47;
 }
 
@@ -239,9 +243,10 @@ img{
     margin-right: 0.5rem;
     transition: color 0.2s ease-out 0s, border-color 0.25s ease-out 0s, box-shadow 0.25s ease-out 0s;
     color: white;
-    font-size: .8rem;
-    margin-top: -2px;
+    font-size: .85rem;
+    margin-top: -6px;
     font-family: 'pixelcyr';
+    text-transform: none;
 }
 
 .navbar-collapse .nav-item:hover::before,
@@ -921,6 +926,10 @@ a.dropdown-item {
 .floor-divider.kinaman .container,
 .floor-divider.one-day-childhood .container{
     margin: 0 auto;
+}
+
+.floor-divider.kinaman .row > div {
+    padding: 0 0.5rem;
 }
 /*Floor Divider*/
 
