@@ -145,7 +145,7 @@ img{
 
 .navbar-brand .logotype {
     width: 190px;
-    height: 70px;
+    height: 69px;
     background-image: url("../img/kinamania_logo.png");
     background-size: contain;
     transition: .2s;
