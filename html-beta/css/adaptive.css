@@ -80,7 +80,7 @@
 
     .navbar-collapse .nav-item::before {
         /*font-size: 1rem;*/
-        margin-top: -1.4rem;
+        margin-top: -1rem;
     }
     /*Dropdown Menu*/
 
@@ -203,7 +203,7 @@
     }
 
     .nav-link {
-        padding: 0 0.3rem 0.2rem;
+        /*padding: 0 0.3rem 0.2rem;*/
     }
 
 }
