@@ -523,6 +523,7 @@ img{
     border: 2px solid rgb(192, 95, 102);
     border-radius: 0;
     box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.4);
+    margin-top: .5rem;
 }
 
 .dropdown-item {

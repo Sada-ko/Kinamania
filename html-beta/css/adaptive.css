@@ -48,8 +48,8 @@
     .nav-item.dropdown {
         margin-left: 0;
         font-size: 1.1rem;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        /*margin-top: 0.5rem;*/
+        /*margin-bottom: 0.5rem;*/
     }
 
     .navbar-dark .navbar-nav .nav-link:hover {
@@ -64,7 +64,7 @@
 
     .dropdown-menu::after {
         /*display: none;*/
-        left: 47px;
+        left: 60px;
     }
 
     .navbar-nav .dropdown-menu {
@@ -79,7 +79,8 @@
     }
 
     .navbar-collapse .nav-item::before {
-        font-size: 1rem;
+        /*font-size: 1rem;*/
+        margin-top: -1.4rem;
     }
     /*Dropdown Menu*/
 
