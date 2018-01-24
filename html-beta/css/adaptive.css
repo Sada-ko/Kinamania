@@ -16,7 +16,7 @@
 
     /*Floor Divider*/
     .floor-divider {
-        margin: -1px -1rem;
+        margin: -1px -2rem;
     }
 
     .floor-divider .container,
@@ -145,6 +145,11 @@
         width: 200px;
     }
 
+    /*Floor Divider*/
+    .floor-divider {
+        margin: -1px -1rem;
+    }
+
     .floor-divider .container,
     .floor-divider .container{
         text-align: center;
@@ -213,7 +218,7 @@
 @media (max-width: 1199px) {
 
     .bg-dark {
-        background-color: rgb(12, 11, 24) !important;
+        background-color: #090915 !important;
     }
 
     .navbar-collapse {
@@ -269,6 +274,10 @@
     .navbar {
         padding: 0.5rem 4rem;
     }
+
+    /*.content_common{*/
+        /*padding-left: 4rem;*/
+    /*}*/
 
     .bg-dark {
         background-color: transparent !important;

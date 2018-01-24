@@ -38,6 +38,11 @@ h1 {
     margin-left: -0.15rem;
 }
 
+.main_content h1,
+.main_content .h1 {
+    font-size: 3.5rem;
+}
+
 h2, .h2 {
     font-size: 1.8rem;
 }
@@ -94,7 +99,7 @@ img{
 }
 
 .bg-dark {
-    background-color: rgb(12, 11, 24) !important;
+    background-color: #090915 !important;
 }
 
 .navbar {
@@ -934,6 +939,24 @@ a.dropdown-item {
 }
 /*Floor Divider*/
 
+
+
+/*Открытое видео*/
+.open-video-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    max-width: 750px;
+}
+
+.open-video{
+    margin-bottom: 2rem;
+}
+
+.open-video-wrapper .video-name,
+.open-video-wrapper .video-desc{
+    padding: 0;
+}
 
 
 
