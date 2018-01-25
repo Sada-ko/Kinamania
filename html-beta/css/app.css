@@ -945,8 +945,9 @@ a.dropdown-item {
 .open-video-wrapper{
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
     max-width: 750px;
+    padding-top: 3rem;
 }
 
 .open-video{
@@ -956,6 +957,10 @@ a.dropdown-item {
 .open-video-wrapper .video-name,
 .open-video-wrapper .video-desc{
     padding: 0;
+}
+
+.related_list {
+    padding-top: 1rem;
 }
 
 
