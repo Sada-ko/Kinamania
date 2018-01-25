@@ -633,6 +633,10 @@ a.dropdown-item {
     background-image: url("../img/kitchen-icon.png");
 }
 
+.main_list.dendy-memories a.list-header::before{
+    background-image: url("../img/dendy-memories-icon.png");
+}
+
 .main_list a.list-header:after{
     background-image: url("../img/pixel-arrow.svg");
     content: "";
@@ -959,7 +963,7 @@ a.dropdown-item {
     padding: 0;
 }
 
-.related_list {
+.related-list {
     padding-top: 1rem;
 }
 
