@@ -596,9 +596,13 @@ a.dropdown-item {
 
 
 /*Main Video List*/
-.main_list {
+.main_list, .fullscreen {
     padding: 3rem 0;
     border-bottom: 1px dashed rgb(125, 125, 125);
+}
+
+.fullscreen{
+    padding-top: 0;
 }
 
 .main_list a.list-header{
