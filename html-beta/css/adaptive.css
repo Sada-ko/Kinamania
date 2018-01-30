@@ -328,6 +328,12 @@
         /*height: 800px;*/
     }
 
+    .fullscreen .video-unit{
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+
 }
 
 

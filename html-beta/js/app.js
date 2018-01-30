@@ -11,7 +11,7 @@ $(document).ready(function () {
 
 
     //Owl Carousel
-    $(".videos-list").owlCarousel({
+    $(".videos-list.owl-carousel").owlCarousel({
         nav: true,
         navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>","<i class='fa fa-angle-right ml-3' aria-hidden='true'></i>"],
         autoWidth:true,

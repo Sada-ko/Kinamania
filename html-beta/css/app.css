@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1 {
     margin-left: -0.15rem;
+    margin-bottom: 1rem;
 }
 
 .main_content h1,
@@ -652,7 +653,7 @@ a.dropdown-item {
     color: rgb(125, 125, 125);
 }
 
-.videos-list::after {
+.videos-list.owl-carousel::after {
     background-image: url("../img/fade.png");
     content: "";
     display: block;
@@ -1010,6 +1011,10 @@ a.dropdown-item {
 }
 
 
+/*Открытый плейлист*/
+.videos-list .video-unit{
+    margin-bottom: 1.5rem;
+}
 
 
 /*=========    content done    =============*/
