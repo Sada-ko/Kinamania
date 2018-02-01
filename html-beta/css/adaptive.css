@@ -125,7 +125,7 @@
     }
 
     .open-video .open-video-switch{
-        display: none;
+        display: none !important;
     }
 
 }

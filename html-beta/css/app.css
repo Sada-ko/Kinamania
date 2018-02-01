@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1 {
     margin-left: -0.15rem;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
 }
 
 .main_content h1,
@@ -967,7 +967,7 @@ a.dropdown-item {
     margin-right: auto;
     /*margin-bottom: 2rem;*/
     max-width: 750px;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .open-video{
@@ -1018,6 +1018,35 @@ a.dropdown-item {
 /*Открытый плейлист*/
 .videos-list .video-unit{
     margin-bottom: 1.5rem;
+}
+
+.head-block{
+    margin-bottom: 2rem;
+}
+
+.playlist-section-menu a:hover{
+    border: none;
+}
+
+.playlist-section-menu .nav-link.active {
+    color: rgb(26, 19, 31);
+    background-color: white;
+}
+
+.playlist-section-menu {
+    margin-left: -.25rem;
+}
+
+.playlist-section-menu .nav-item{
+    margin-right: .5rem;
+}
+
+.playlist-section-menu .nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-link {
+    padding: .1rem .55rem;
 }
 
 
