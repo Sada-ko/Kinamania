@@ -1016,6 +1016,19 @@ a.dropdown-item {
 
 
 /*Открытый плейлист*/
+
+.header_common.playlist {
+    background-image: url("../img/playlist-head-bg.gif");
+    background-position: left bottom;
+    background-size: auto 280px;
+    height: 265px;
+    margin-bottom: 2rem;
+}
+
+.header_common.playlist .head-block{
+    margin-bottom: 0;
+}
+
 .videos-list .video-unit{
     margin-bottom: 1.5rem;
 }
