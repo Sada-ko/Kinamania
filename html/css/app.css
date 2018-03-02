@@ -497,15 +497,18 @@ img{
 
 .base_article section,
 .base_article p{
-    max-width: 770px;
+    /*max-width: 770px;*/
+    max-width: 80%;
 }
 
 aside {
     color: #636c72;
     font-size: 0.8rem;
-    margin-left: 790px;
+    /*margin-left: 790px;*/
+    margin-left: 80%;
     width: 200px;
     position: absolute;
+    padding: .5rem;
 }
 
 aside img{
