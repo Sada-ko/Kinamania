@@ -31,6 +31,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 1.2;
+    margin-bottom: 0.7rem;
 }
 
 h1 {
@@ -40,11 +41,13 @@ h1 {
 
 h2, .h2 {
     font-size: 1.8rem;
+    margin-top: 2.5rem;
 }
 
 h3, .h3 {
-    font-size: 1.65rem;
+    font-size: 1.4rem;
     font-weight: 100;
+    margin-top: 1.6rem;
 }
 
 .main_content h1,
@@ -83,6 +86,10 @@ a:hover img {
     filter: brightness(120%);
 }
 
+p {
+    margin-bottom: .7rem;
+}
+
 .inverted {
     color: white;
 }
@@ -104,6 +111,28 @@ img {
     background-color: transparent;
     color: white;
     border: 1px solid white;
+}
+
+.blockquote{
+    line-height: 2rem;
+    /*margin-bottom: 2rem;*/
+    font-size: 1.2rem;
+}
+
+.blockquote strong{
+    letter-spacing: .07rem;
+}
+
+.iconed{
+    transition: .2s;
+}
+
+.iconed:hover i{
+    color: rgb(192, 95, 102);
+}
+
+.compensate{
+    margin-left: -1rem;
 }
 
 /*=========     head    ===========*/
@@ -651,9 +680,6 @@ a.dropdown-item {
     width: 8px;
 }
 
-.main_list a.list-header:hover {
-    color: rgb(125, 125, 125);
-}
 
 .videos-list.owl-carousel::after {
     background-image: url("../img/fade.png");
@@ -694,7 +720,6 @@ a.dropdown-item {
         right: -13px;
     }
 }
-
 /*animation*/
 
 .main_list a.list-header:hover:after {
@@ -702,6 +727,7 @@ a.dropdown-item {
     animation: moving-cursor .4s linear infinite;
     filter: brightness(120%);
     transition: .2s;
+    fill: white;
 }
 
 .main_list a.list-header:hover:before {
@@ -710,7 +736,8 @@ a.dropdown-item {
 }
 
 .main_list a.list-header:hover {
-    color: rgb(150, 150, 150);
+    /*color: rgb(150, 150, 150);*/
+    color: white;
 }
 
 .main_list .video-name {
@@ -1057,11 +1084,11 @@ a.dropdown-item {
 }
 
 .side_menu, .base_article img {
-    margin-bottom: 1rem;
+    margin: .5rem 0;
 }
 
 .base_article section,
-.base_article p {
+.base_article > p {
     /*max-width: 770px;*/
     max-width: 80%;
 }
@@ -1073,11 +1100,13 @@ aside {
     margin-left: 80%;
     width: 200px;
     position: absolute;
-    padding: .5rem;
+    padding: 0 1rem .5rem 1rem;
+    letter-spacing: .03rem;
+    line-height: 1.3rem;
 }
 
 aside img {
-    max-width: 200px;
+    max-width: 100%;
 }
 
 p.photo_desc {
@@ -1116,13 +1145,13 @@ p.photo_desc {
     color: rgb(192, 95, 102);
 }
 
-.side_menu .active::after {
+.side_menu .active::before {
     font: normal normal normal 14px/1 FontAwesome;
     content: "\f054";
     font-size: .7rem;
     margin-left: .5rem;
     position: absolute;
-    right: -0.5rem;
+    left: -1.5rem;
     top: 25%;
     height: 100%;
 }
@@ -1130,7 +1159,7 @@ p.photo_desc {
 .group-item {
     font-size: .8rem;
     margin-bottom: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     position: relative;
 }
 
@@ -1170,12 +1199,19 @@ p.photo_desc {
 
 .gallery .gallery-item a {
     position: relative;
+    overflow: hidden;
 }
 
 .gallery-item a .background {
     width: 100%;
     height: 100%;
     border-radius: 0.25rem;
+    background-size: 100%;
+    transition: .1s;
+}
+
+a:hover .background{
+    transform: scale(1.1);
 }
 
 .gallery-item .caption {
@@ -1210,11 +1246,12 @@ p.photo_desc {
 .img-thumbnail {
     padding: 0;
     background-color: transparent;
+    border: none;
 }
 
 .gallery-item a:hover .background {
     transition: .2s;
-    opacity: .8;
+    opacity: .9;
 }
 
 .gallery-item a:hover .caption div {
@@ -1226,8 +1263,32 @@ p.photo_desc {
     margin: 0 -.7rem;
 }
 
-.back-header-link::before{
-        
+
+
+/*Jouele*/
+.jouele-skin-dark .jouele-progress-line-bar_play.jouele-is-playing:after { /* Control 'elapsed' when playing */
+    background-color: rgb(192, 95, 102) !important;
+}
+.jouele-skin-dark .jouele-progress-line:hover .jouele-progress-line-bar_play:after { /* Control 'elapsed' on hover */
+    background-color: rgb(162, 67, 74) !important;
+}
+.jouele-skin-dark .jouele-progress-line-lift.jouele-is-playing { /* Control 'position' when playing */
+    background-color: rgb(192, 95, 102) !important;
+}
+.jouele-skin-dark .jouele-progress-line:hover .jouele-progress-line-lift { /* Control 'position' on hover */
+    background-color: rgb(162, 67, 74) !important;
+}
+.jouele-skin-dark .jouele-progress-line-lift.jouele-is-playing:before { /* Preloader animation in control 'position' when playing */
+    border-color: rgb(192, 95, 102) !important;
+}
+.jouele-skin-dark .jouele-progress-line:hover .jouele-progress-line-lift:before { /* Preloader animation in control 'position' on hover */
+    border-color: rgb(162, 67, 74) !important;
+}
+.jouele-skin-dark .jouele-info-control-button-icon_play.jouele-is-playing .jouele-svg-color { /* Control 'play-pause' when playing */
+    fill: rgb(192, 95, 102) !important;
+}
+.jouele-skin-dark .jouele-info-control-button:hover .jouele-info-control-button-icon_play .jouele-svg-color { /* Control 'play-pause' on hover */
+    fill: rgb(162, 67, 74) !important;
 }
 
 
@@ -1261,7 +1322,7 @@ p.photo_desc {
 }
 
 .footer .compensate {
-    /*margin-left: -1rem;*/
+    margin-left: 0;
 }
 
 .footer .copyright {
