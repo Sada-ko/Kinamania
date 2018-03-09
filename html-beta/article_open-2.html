@@ -131,7 +131,7 @@
 <div class="container-fluid main_content row">
 
     <button class="btn btn-outline btn-sm side-menu-collapse d-block d-md-none collapsed" type="button" data-toggle="collapse" data-target="#collapse-side-menu" aria-expanded="false" aria-controls="collapse-side-menu">
-        Другие статьи
+        Другие разделы
     </button>
 
     <nav class="col-md-2 col-12 side_menu collapse" id="collapse-side-menu">
@@ -206,6 +206,10 @@
         <p>&laquo;Поле Чудес&raquo; я&nbsp;смотрел не&nbsp;меньше, чем &laquo;Что? Где? Когда?&raquo;. Алфавит я&nbsp;тогда уже знал на&nbsp;зубок, читать умел, и&nbsp;отгадывать буквы и&nbsp;слова мне очень и&nbsp;очень нравилось. Ещё больше мне нравился игровой барабан. Мне безумно хотелось самому поиграть в&nbsp;эту игру, и&nbsp;я&nbsp;просил маму подарить мне &laquo;Поле Чудес&raquo;. Что конкретно я&nbsp;у&nbsp;неё просил&nbsp;&mdash; я&nbsp;не&nbsp;знаю, мне просто хотелось игру &laquo;Поле Чудес&raquo;. Я&nbsp;даже не&nbsp;знал, существует&nbsp;ли такая игра в&nbsp;миниатюре или нет. И&nbsp;когда маме надоело отнекиваться, она мне сказала: &laquo;Попроси &bdquo;Поле Чудес&ldquo; у&nbsp;Деда Мороза&raquo;. И&nbsp;я&nbsp;стал, чуть&nbsp;ли не&nbsp;каждый день, просить перед сном Деда Мороза, чтобы он&nbsp;подарил мне &laquo;Поле Чудес&raquo;. И&nbsp;вот в&nbsp;конце декабря 93-го мы&nbsp;поехали в&nbsp;деревню встречать Новый Год. Достали из&nbsp;кладовки небольшую искусственную ёлку, нарядили игрушками и&nbsp;поставили на&nbsp;телевизор. Помню, Виталик тогда коллекционировал редкие монеты, и&nbsp;я&nbsp;часто рассматривал&nbsp;их. И&nbsp;вот тогда 31-го декабря я&nbsp;положил на&nbsp;телевизор с&nbsp;двух сторон перед ёлкой два юбилейных олимпийских рубля. Не&nbsp;помню, зачем я&nbsp;так сделал: то&nbsp;ли для красоты, то&nbsp;ли хотел задобрить Деда Мороза... Как&nbsp;бы то&nbsp;ни&nbsp;было, проснувшись на&nbsp;утро 1-го января, я&nbsp;пошёл в&nbsp;гостиную, где стоял телевизор, взобрался на&nbsp;табуретку и&nbsp;увидел... Под ёлкой лежала небольшая квадратная коробка, на&nbsp;которой было написано &laquo;Поле Чудес&raquo; и&nbsp;изображения игрового барабана и&nbsp;бывшего ведущего этой передачи&nbsp;&mdash; Влада Листьева. Невозможно передать словами, как я&nbsp;был счастлив! Моё заветное желание осуществилось! Я&nbsp;слез с&nbsp;табуретки, сел на&nbsp;пол, открыл коробку, разложил игру, установил крутящуюся стрелку, высыпал картонные буквы... Что было дальше&nbsp;&mdash; я&nbsp;смутно помню... Помню, что играл с&nbsp;папой там&nbsp;же на&nbsp;полу. В&nbsp;общем, это был самый счастливый Новый Год за&nbsp;все мои 5&nbsp;лет.</p>
     </div>
 
+    <div class="dashed w-100">
+        <hr/>
+    </div>
+
 </div>
 
 <!--Подвал-->
@@ -248,11 +252,11 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
 <!--My JS scripts-->
@@ -261,8 +265,24 @@
 <!--Owl carousel-->
 <script src="js/owl-carousel/owl.carousel.js"></script>
 
-<!--Custom styles-->
-<script src="js/bootstrap.min.js"></script>
+<!--Fillbox-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.fill-box').fillBox();
+    });
+</script>
+
+<!--Lightbox-->
+<script src="js/lightbox/ekko-lightbox.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+</script>
+
+<!-- Include Jouele: JS -->
+<script src="js/jouele.min.js"></script>
 
 </body>
 </html>

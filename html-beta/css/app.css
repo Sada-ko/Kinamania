@@ -198,11 +198,71 @@ img {
     background-image: url("../img/kinamania_logo.png");
     background-size: contain;
     transition: .2s;
+    position: relative;
+}
+
+.navbar-brand .logotype::before,
+.navbar-brand .logotype::after{
+    display: block;
+    width: 190px;
+    height: 69px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand .logotype::after{
+    background-image: url("../img/kinamania-pixel-logo-2.jpg");
+    opacity: 0;
+    transition: .1s;
+    transition-delay: .1s;
+}
+
+.navbar-brand .logotype::before{
+    background-image: url("../img/kinamania-pixel-logo-1.jpg");
+    opacity: 0;
+    transition: .1s;
+}
+
+@-webkit-keyframes pixel-logo {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes pixel-logo {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.navbar-brand .logotype:hover::after{
+    opacity: 1;
+    /*-webkit-animation: pixel-logo 1s linear 1;*/
+    /*animation: pixel-logo 1s linear 1;*/
+}
+
+.navbar-brand .logotype:hover::before {
+    opacity: 1;
 }
 
 .navbar-brand:hover .logotype {
-    -webkit-filter: brightness(150%); /* Safari 6.0 - 9.0 */
-    filter: brightness(150%);
+    /*background-image: url("../img/kinamania_logo.gif?someRandomNumber=1345");*/
+    /*-webkit-filter: brightness(150%); !* Safari 6.0 - 9.0 *!*/
+    /*filter: brightness(150%);*/
 }
 
 .navbar-brand .slogan {
@@ -269,10 +329,6 @@ img {
 
 .navbar-collapse .dropdown-toggle::after {
     display: none;
-}
-
-.navbar-collapse .nav-item {
-    margin: 0 1rem;
 }
 
 .navbar-collapse .nav-item:first-child {
@@ -566,6 +622,13 @@ img {
     padding: 0.45rem 1.5rem;
 }
 
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: rgb(192, 95, 102);
+    /*color: rgb(192, 95, 102);*/
+    color: rgb(9, 9, 21);
+}
+
 .dropdown-menu::after {
     background-color: rgb(9, 9, 21);
     border-right: 2px solid rgb(192, 95, 102);
@@ -781,10 +844,11 @@ a.dropdown-item {
     border: none;
 }
 
-.fa-inverse {
+.more .fa-inverse {
     color: rgb(9, 9, 21);
-!important;
 }
+
+
 
 /*owl-carousel*/
 .owl-prev, .owl-next {
@@ -1251,7 +1315,7 @@ a:hover .background{
 
 .gallery-item a:hover .background {
     transition: .2s;
-    opacity: .9;
+    /*opacity: .9;*/
 }
 
 .gallery-item a:hover .caption div {
@@ -1293,7 +1357,9 @@ a:hover .background{
 
 
 
-
+.dashed hr{
+    border-bottom: 1px dashed rgb(125, 125, 125);
+}
 
 
 
