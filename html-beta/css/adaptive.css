@@ -233,6 +233,13 @@
         max-width: 100%;
     }
 
+
+    /*pagination*/
+    .pagination{
+        justify-content: center !important;
+    }
+
+
 }
 
 
@@ -361,6 +368,12 @@
     /*gallery*/
     .gallery .gallery-item a{
         height: 200px;
+    }
+
+
+    /*pagination*/
+    .pagination{
+        padding-left: 20%;
     }
 
 }
