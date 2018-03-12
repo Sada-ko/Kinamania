@@ -274,11 +274,15 @@
 
 
 
+    .base_article img {
+        max-width: 100%;
+    }
+
     aside{
         background-color: rgb(26, 19, 31);
         box-sizing: content-box;
         float: right;
-        margin: 0 1rem 1rem;
+        margin: 0 0 1rem 1rem;
         padding: 1rem 1rem;
         position: relative;
     }

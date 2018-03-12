@@ -1,0 +1,27 @@
+/* line 5, pagination.scss */
+.pagination .page-link, .pagination .page-item.active .page-link {
+  color: #7d7d7d;
+  border: none !important; }
+/* line 10, pagination.scss */
+.pagination .page-item.active .page-link {
+  background-color: #23212b !important; }
+/* line 15, pagination.scss */
+.pagination .page-item.disabled .page-link {
+  color: #23212b; }
+/* line 19, pagination.scss */
+.pagination .page-item.disabled .page-link,
+.pagination .page-link:hover,
+.pagination .page-item.active .page-link:hover,
+.pagination .page-link:active,
+.pagination .page-item.active .page-link:active,
+.pagination .page-link:focus,
+.pagination .page-item.active .page-link:focus {
+  border: none !important; }
+/* line 26, pagination.scss */
+.pagination .page-link.bg-dark:hover,
+.pagination .page-link.bg-dark:active,
+.pagination .page-link.bg-dark:focus {
+  color: #c05f66;
+  background-color: #23212b !important; }
+
+/*# sourceMappingURL=pagination.css.map */

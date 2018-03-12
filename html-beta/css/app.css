@@ -40,12 +40,12 @@ h1 {
 }
 
 h2, .h2 {
-    font-size: 1.8rem;
-    margin-top: 2.5rem;
+    font-size: 1.65rem;
+    margin-top: 2.3rem;
 }
 
 h3, .h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 100;
     margin-top: 1.6rem;
 }
@@ -113,25 +113,25 @@ img {
     border: 1px solid white;
 }
 
-.blockquote{
+.blockquote {
     line-height: 2rem;
     /*margin-bottom: 2rem;*/
     font-size: 1.2rem;
 }
 
-.blockquote strong{
+.blockquote strong {
     letter-spacing: .07rem;
 }
 
-.iconed{
+.iconed {
     transition: .2s;
 }
 
-.iconed:hover i{
+.iconed:hover i {
     color: rgb(192, 95, 102);
 }
 
-.compensate{
+.compensate {
     margin-left: -1rem;
 }
 
@@ -202,7 +202,7 @@ img {
 }
 
 .navbar-brand .logotype::before,
-.navbar-brand .logotype::after{
+.navbar-brand .logotype::after {
     display: block;
     width: 190px;
     height: 69px;
@@ -213,18 +213,18 @@ img {
     transition: .1s;
 }
 
-.navbar-brand .logotype::after{
+.navbar-brand .logotype::after {
     background-image: url("../img/kinamania-pixel-logo-2.jpg");
     opacity: 0;
     transition-delay: .1s;
 }
 
-.navbar-brand .logotype::before{
+.navbar-brand .logotype::before {
     background-image: url("../img/kinamania-pixel-logo-1.jpg");
     opacity: 0;
 }
 
-.navbar-brand .logotype:hover::after{
+.navbar-brand .logotype:hover::after {
     opacity: 1;
 }
 
@@ -590,7 +590,7 @@ img {
 }
 
 .dropdown-item.active,
-.dropdown-item:active{
+.dropdown-item:active {
     background-color: rgb(192, 95, 102);
     color: rgb(9, 9, 21);
 }
@@ -607,7 +607,7 @@ img {
     transition: .2s;
 }
 
-.dropdown-item:hover::before{
+.dropdown-item:hover::before {
     background-color: rgb(9, 9, 21);
 }
 
@@ -714,7 +714,6 @@ a.dropdown-item {
     width: 8px;
 }
 
-
 .videos-list.owl-carousel::after {
     background-image: url("../img/fade.png");
     content: "";
@@ -754,6 +753,7 @@ a.dropdown-item {
         right: -13px;
     }
 }
+
 /*animation*/
 
 .main_list a.list-header:hover:after {
@@ -818,8 +818,6 @@ a.dropdown-item {
 .more .fa-inverse {
     color: rgb(9, 9, 21);
 }
-
-
 
 /*owl-carousel*/
 .owl-prev, .owl-next {
@@ -1123,8 +1121,8 @@ a.dropdown-item {
 }
 
 .base_article section,
-.base_article > p {
-    /*max-width: 770px;*/
+.base_article > p,
+.base_article img {
     max-width: 80%;
 }
 
@@ -1135,7 +1133,7 @@ aside {
     margin-left: 80%;
     width: 200px;
     position: absolute;
-    padding: 0 1rem .5rem 1rem;
+    padding: 0 0 .5rem 2rem;
     letter-spacing: .03rem;
     line-height: 1.3rem;
 }
@@ -1245,7 +1243,7 @@ p.photo_desc {
     transition: .1s;
 }
 
-a:hover .background{
+a:hover .background {
     transform: scale(1.1);
 }
 
@@ -1298,87 +1296,71 @@ a:hover .background{
     margin: 0 -.7rem 3rem -.7rem;
 }
 
-
-
-
 /*Pagination*/
-.page-item.disabled .page-link{
+.page-item.disabled .page-link {
     color: rgb(35, 33, 43);
 }
 
 .page-item.disabled .page-link,
 .page-link:hover,
 .page-link:active,
-.page-link:focus{
-    /*border-color: rgb(35, 33, 43);*/
+.page-link:focus {
     border: none !important;
 }
 
 .page-link {
-    /*border-color: rgb(35, 33, 43);*/
     border: none !important;
     color: rgb(125, 125, 125);
-    /*color: white;*/
 }
 
 .page-link.bg-dark:hover,
 .page-link.bg-dark:active,
-.page-link.bg-dark:focus{
+.page-link.bg-dark:focus {
     color: rgb(192, 95, 102);
     background-color: rgb(35, 33, 43) !important;
 }
 
-.page-item:hover{
-    /*background-color: white !important;*/
-}
-
 .page-item.active .page-link {
-    /*border-color: rgb(35, 33, 43);*/
     color: rgb(125, 125, 125);
     background-color: rgb(35, 33, 43) !important;
 }
-
-
-
-
-
-
 
 /*Jouele*/
 .jouele-skin-dark .jouele-progress-line-bar_play.jouele-is-playing:after { /* Control 'elapsed' when playing */
     background-color: rgb(192, 95, 102) !important;
 }
+
 .jouele-skin-dark .jouele-progress-line:hover .jouele-progress-line-bar_play:after { /* Control 'elapsed' on hover */
     background-color: rgb(162, 67, 74) !important;
 }
+
 .jouele-skin-dark .jouele-progress-line-lift.jouele-is-playing { /* Control 'position' when playing */
     background-color: rgb(192, 95, 102) !important;
 }
+
 .jouele-skin-dark .jouele-progress-line:hover .jouele-progress-line-lift { /* Control 'position' on hover */
     background-color: rgb(162, 67, 74) !important;
 }
+
 .jouele-skin-dark .jouele-progress-line-lift.jouele-is-playing:before { /* Preloader animation in control 'position' when playing */
     border-color: rgb(192, 95, 102) !important;
 }
+
 .jouele-skin-dark .jouele-progress-line:hover .jouele-progress-line-lift:before { /* Preloader animation in control 'position' on hover */
     border-color: rgb(162, 67, 74) !important;
 }
+
 .jouele-skin-dark .jouele-info-control-button-icon_play.jouele-is-playing .jouele-svg-color { /* Control 'play-pause' when playing */
     fill: rgb(192, 95, 102) !important;
 }
+
 .jouele-skin-dark .jouele-info-control-button:hover .jouele-info-control-button-icon_play .jouele-svg-color { /* Control 'play-pause' on hover */
     fill: rgb(162, 67, 74) !important;
 }
 
-
-
-.dashed hr{
+.dashed hr {
     border-bottom: 1px dashed rgb(125, 125, 125);
 }
-
-
-
-
 
 .footer {
     bottom: 0;
