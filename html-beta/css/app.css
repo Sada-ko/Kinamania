@@ -109,13 +109,13 @@ img {
     border: 1px solid white;
 }
 
-.blockquote {
+blockquote {
     line-height: 2rem;
     /*margin-bottom: 2rem;*/
     font-size: 1.2rem;
 }
 
-.blockquote strong {
+blockquote strong {
     letter-spacing: .07rem;
 }
 
