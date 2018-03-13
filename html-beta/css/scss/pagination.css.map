@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";AAIE,gEAAW;EACT,KAAK,ECHF,OAAkB;EDIrB,MAAM,EAAE,eAAe;;AAGzB,wCAA6B;EAE3B,gBAAgB,EAAE,kBAAqB;;AAGzC,0CAA+B;EAC7B,KAAK,ECZG,OAAe;;ADezB;;;;;;8CAGiB;EACf,MAAM,EAAE,eAAe;;AAGzB;;oCAEyB;EACvB,KAAK,ECvBK,OAAiB;EDwB3B,gBAAgB,EAAE,kBAAqB",
-"sources": ["pagination.scss","_variables.scss"],
-"names": [],
-"file": "pagination.css"
-}

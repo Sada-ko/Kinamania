@@ -103,10 +103,6 @@ img {
     max-width: 100%;
 }
 
-.text-muted {
-    color: rgb(125, 125, 125) !important;
-}
-
 .btn-outline {
     background-color: transparent;
     color: white;
@@ -659,7 +655,7 @@ a.dropdown-item {
 /*Main Video List*/
 .main_list, .fullscreen {
     padding: 3rem 0;
-    border-bottom: 1px dashed rgb(125, 125, 125);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
 .fullscreen {
@@ -1121,9 +1117,16 @@ a.dropdown-item {
 }
 
 .base_article section,
-.base_article > p,
-.base_article img {
+.base_article blockquote,
+.base_article > p {
     max-width: 80%;
+}
+
+blockquote.blockquote{
+    max-width: calc(100% + 1rem);
+    padding: 1.5rem 2rem;
+    background-color: rgb(26, 19, 31);
+    margin-left: -1rem;
 }
 
 aside {
@@ -1359,7 +1362,7 @@ a:hover .background {
 }
 
 .dashed hr {
-    border-bottom: 1px dashed rgb(125, 125, 125);
+    border-top-style: dashed;
 }
 
 .footer {
