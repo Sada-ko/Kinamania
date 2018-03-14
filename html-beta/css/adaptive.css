@@ -172,6 +172,9 @@
 /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991px) {
 
+    .w-md-80{
+        width: 100%;
+    }
 
     .header_container {
         /*height: 200px;*/
@@ -233,7 +236,9 @@
         display: none;
     }
 
-    .base_article section, .base_article p {
+    .base_article section,
+    .base_article blockquote,
+    .base_article p {
         max-width: 100%;
     }
 
@@ -246,7 +251,6 @@
     .pagination{
         justify-content: center !important;
     }
-
 
 }
 

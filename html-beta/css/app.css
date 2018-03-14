@@ -131,6 +131,10 @@ blockquote strong {
     margin-left: -1rem;
 }
 
+.w-md-80{
+    width: 80%;
+}
+
 /*=========     head    ===========*/
 
 .navbar.bg-inverse {
