@@ -1158,6 +1158,10 @@ p.photo_desc {
     max-width: 100%;
 }
 
+.biopic-main{
+    width: 300px;
+}
+
 /*  side menu  */
 .side_menu {
     padding-left: 0;
