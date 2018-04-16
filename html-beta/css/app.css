@@ -703,6 +703,14 @@ a.dropdown-item {
     background-image: url("../img/dendy-memories-icon.png");
 }
 
+.main_list.dendy-chronicles a.list-header::before {
+    background-image: url("../img/chronicles-icon.png");
+}
+
+.main_list.turtle-pavl a.list-header::before {
+    background-image: url("../img/pavl-icon.png");
+}
+
 .main_list a.list-header:after {
     background-image: url("../img/pixel-arrow.svg");
     content: "";
@@ -1159,7 +1167,7 @@ p.photo_desc {
 }
 
 .biopic-main{
-    width: 300px;
+    width: 210px;
 }
 
 /*  side menu  */
@@ -1335,6 +1343,20 @@ a:hover .background {
     color: rgb(125, 125, 125);
     background-color: rgb(35, 33, 43) !important;
 }
+
+
+
+/*АРХИВ*/
+.news-archive-item{
+    margin-bottom: 2rem;
+}
+
+.news-archive-item .date{
+    /*max-width: 160px;*/
+    font-weight: 400;
+}
+
+
 
 /*Jouele*/
 .jouele-skin-dark .jouele-progress-line-bar_play.jouele-is-playing:after { /* Control 'elapsed' when playing */
