@@ -281,7 +281,7 @@
     /*Главное меню, подсветка*/
     .navbar-collapse .nav-item:hover::before,
     .navbar-collapse .nav-item:hover .nav-link {
-        color: white;
+        color: rgba(255, 255, 255, .8);
     }
 
     .navbar-collapse .nav-item.show::before,
@@ -358,10 +358,6 @@
         display: block;
     }
 
-    .side_menu{
-        /*position: -webkit-sticky;*/
-        /*position: sticky;*/
-    }
 
     /*gallery*/
     .gallery .gallery-item a{
