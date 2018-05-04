@@ -569,7 +569,7 @@ blockquote strong {
 }
 
 .second_menu .btn-outline-success:hover {
-    color: #fff;
+    color: rgba(255, 255, 255, .8);
     background-color: transparent;
     border: none;
 }
@@ -605,6 +605,25 @@ blockquote strong {
     top: 13px;
     width: 3px;
     transition: .2s;
+}
+
+.dropdown-item.no-bullet::before{
+    background-color: transparent;
+}
+
+.dropdown-item.coulthard::before{
+    background-size: contain;
+    display: block;
+    height: 12px;
+    left: 6px;
+    position: absolute;
+    width: 14px;
+    top: 10px;
+    background-image: url("../img/coulthard-flag.gif");
+}
+
+.dropdown-item.no-bullet:hover::before{
+    background-color: rgba(255, 255, 255, .8);
 }
 
 .dropdown-item:hover::before {
@@ -1074,7 +1093,7 @@ a.dropdown-item {
     background-image: url("../img/playlist-head-bg.gif");
     background-position: left bottom;
     background-size: auto 280px;
-    height: 265px;
+    height: 280px;
     margin-bottom: 2rem;
 }
 
@@ -1109,6 +1128,14 @@ a.dropdown-item {
 
 .playlist-section-menu .nav-item:last-child {
     margin-right: 0;
+}
+
+.playlist-section-menu .nav-item a span{
+    /*font-style: italic;*/
+}
+
+.season_year{
+    padding: .1rem .55rem;
 }
 
 .nav-link {
