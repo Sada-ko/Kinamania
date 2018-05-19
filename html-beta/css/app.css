@@ -730,6 +730,10 @@ a.dropdown-item {
     background-image: url("../img/pavl-icon.png");
 }
 
+.main_list.flashback a.list-header::before {
+    background-image: url("../img/flashback-icon.png");
+}
+
 .main_list a.list-header:after {
     background-image: url("../img/pixel-arrow.svg");
     content: "";
