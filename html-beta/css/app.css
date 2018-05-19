@@ -253,7 +253,7 @@ blockquote strong {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .8);
     position: relative;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
