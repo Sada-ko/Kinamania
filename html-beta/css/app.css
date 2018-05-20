@@ -119,6 +119,17 @@ blockquote strong {
     letter-spacing: .07rem;
 }
 
+.text-muted {
+    color: #7c7a7e;
+}
+
+.inviz {
+    display: none !important;
+}
+.archive {
+    display: none;
+}
+
 .iconed {
     transition: .2s;
 }
@@ -177,11 +188,11 @@ blockquote strong {
 }
 
 .header_pic.dark {
-    background-image: url("../img/header_bg_dark.gif");
+    background-image: url("../images/header_bg_dark.gif");
 }
 
 .header_pic.light {
-    background-image: url("../img/header_bg_light.gif");
+    background-image: url("../images/header_bg_light.gif");
 }
 
 .navbar-brand {
@@ -195,7 +206,7 @@ blockquote strong {
 .navbar-brand .logotype {
     width: 190px;
     height: 69px;
-    background-image: url("../img/kinamania_logo.png");
+    background-image: url("../images/kinamania_logo.png");
     background-size: contain;
     transition: .2s;
     position: relative;
@@ -214,13 +225,13 @@ blockquote strong {
 }
 
 .navbar-brand .logotype::after {
-    background-image: url("../img/kinamania-pixel-logo-2.jpg");
+    background-image: url("../images/kinamania-pixel-logo-2.jpg");
     opacity: 0;
     transition-delay: .1s;
 }
 
 .navbar-brand .logotype::before {
-    background-image: url("../img/kinamania-pixel-logo-1.jpg");
+    background-image: url("../images/kinamania-pixel-logo-1.jpg");
     opacity: 0;
 }
 
@@ -242,7 +253,7 @@ blockquote strong {
     text-align: right;
     top: 70px;
     width: 116px;
-    background-image: url("../img/slogan.svg");
+    background-image: url("../images/slogan.svg");
     background-repeat: no-repeat;
 }
 
@@ -283,6 +294,16 @@ blockquote strong {
     text-shadow: 1px 1px 0 #903c47;
 }
 
+li.live > ul.dropdown-menu > li.nav-item,
+li.live > ul.dropdown-menu > li > .nav-link {
+    margin: 0 !important;
+    background: none !important;
+    border :none !important;
+    color: rgb(192, 95, 102);
+    position: relative;
+    line-height: 1rem;
+}
+
 .navbar-dark .navbar-nav .live:hover .nav-link {
     background-color: #c97264;
     color: rgba(255, 255, 255, .8);
@@ -298,8 +319,12 @@ blockquote strong {
     display: none;
 }
 
-.navbar-collapse .nav-item:first-child {
-    margin-left: 0;
+.navbar-collapse .nav-item{
+    margin: 0 1rem;
+}
+
+.navbar-collapse .nav-item:first-child, .nav-child .nav-item{
+    margin-left: 0 !important;
 }
 
 .navbar-collapse .nav-item:last-child {
@@ -517,6 +542,7 @@ blockquote strong {
     /*font-family: 'pixelcyr';*/
     border-right: 1px solid rgb(35, 33, 43);
     padding: 0 1rem;
+    display: inline-block;
 }
 
 .second_menu .nav-item:last-of-type,
@@ -525,7 +551,11 @@ blockquote strong {
     /*margin-right: 1.5rem;*/
 }
 
-.second_menu .search-form {
+.main_page_search_wraper {
+    display: flex;
+    padding-top: 10px;
+}
+.second_menu .search-form{
     width: 160px;
     display: inline-flex;
     text-align: left;
@@ -585,6 +615,10 @@ blockquote strong {
     margin-top: .5rem;
 }
 
+ul.dropdown-menu > li.nav-item {
+    margin: 0 !important;
+}
+
 .dropdown-item {
     padding: 0.45rem 1.5rem;
 }
@@ -619,7 +653,7 @@ blockquote strong {
     position: absolute;
     width: 14px;
     top: 10px;
-    background-image: url("../img/coulthard-flag.gif");
+    background-image: url("../images/coulthard-flag.gif");
 }
 
 .dropdown-item.no-bullet:hover::before{
@@ -707,35 +741,35 @@ a.dropdown-item {
 }
 
 .main_list.fresh-videos a.list-header::before {
-    background-image: url("../img/fresh-videos-icon.png");
+    background-image: url("../images/fresh-videos-icon.png");
 }
 
 .main_list.playstation-frontiere a.list-header::before {
-    background-image: url("../img/playstation-icon.png");
+    background-image: url("../images/playstation-icon.png");
 }
 
 .main_list.kitchen a.list-header::before {
-    background-image: url("../img/kitchen-icon.png");
+    background-image: url("../images/kitchen-icon.png");
 }
 
 .main_list.dendy-memories a.list-header::before {
-    background-image: url("../img/dendy-memories-icon.png");
+    background-image: url("../images/dendy-memories-icon.png");
 }
 
 .main_list.dendy-chronicles a.list-header::before {
-    background-image: url("../img/chronicles-icon.png");
+    background-image: url("../images/chronicles-icon.png");
 }
 
 .main_list.turtle-pavl a.list-header::before {
-    background-image: url("../img/pavl-icon.png");
+    background-image: url("../images/pavl-icon.png");
 }
 
 .main_list.flashback a.list-header::before {
-    background-image: url("../img/flashback-icon.png");
+    background-image: url("../images/flashback-icon.png");
 }
 
-.main_list a.list-header:after {
-    background-image: url("../img/pixel-arrow.svg");
+.main_list a.list-header:after{
+    background-image: url("../images/pixel-arrow.svg");
     content: "";
     display: inline-block;
     height: 15px;
@@ -745,8 +779,12 @@ a.dropdown-item {
     width: 8px;
 }
 
-.videos-list.owl-carousel::after {
-    background-image: url("../img/fade.png");
+.videos-list  {
+    width: auto;
+}
+
+.videos-list::after {
+    background-image: url("../images/fade.png");
     content: "";
     display: block;
     height: 100%;
@@ -902,7 +940,7 @@ a.dropdown-item {
     width: 14px;
     height: 15px;
     content: "";
-    background-image: url("../img/moving_cursor.gif");
+    background-image: url("../images/moving_cursor.gif");
     background-size: contain;
     position: absolute;
     left: -25px;
@@ -963,6 +1001,11 @@ a.dropdown-item {
 }
 
 /*  unit  */
+.unit {
+    border-top: 1px dashed rgb(99, 108, 114);
+    padding: 2.5rem 0;
+}
+
 .heading {
     margin-bottom: 1.2rem;
 }
@@ -1031,7 +1074,12 @@ a.dropdown-item {
 .floor-divider.one-day-childhood .container {
     margin: 0 auto;
 }
-
+.kinaman_ico_bg {
+    background: url('../images/kinaman.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .floor-divider.kinaman .row > div {
     padding: 0 1rem;
 }
@@ -1094,7 +1142,7 @@ a.dropdown-item {
 /*Открытый плейлист*/
 
 .header_common.playlist {
-    background-image: url("../img/playlist-head-bg.gif");
+    background-image: url("../images/playlist-head-bg.gif");
     background-position: left bottom;
     background-size: auto 280px;
     height: 280px;
@@ -1223,7 +1271,8 @@ p.photo_desc {
     padding: 0 0 .1rem 0;
 }
 
-.side_menu .active {
+.side_menu .active,
+.side_menu .active a{
     font-weight: bold;
     color: rgb(192, 95, 102);
 }
@@ -1426,6 +1475,18 @@ a:hover .background {
     border-top-style: dashed;
 }
 
+
+.pagination-list li {
+    display: inline-block;
+    margin: 10px 15px;
+    list-style: none;
+}
+
+
+
+
+/*=========    content done    =============*/
+
 .footer {
     bottom: 0;
     height: 300px;
@@ -1438,7 +1499,7 @@ a:hover .background {
 .footer .logotype {
     width: 159px;
     height: 56px;
-    background-image: url("../img/kinamania_logo_white.png");
+    background-image: url("../images/kinamania_logo_white.png");
     background-size: contain;
     margin-bottom: 20px;
 }

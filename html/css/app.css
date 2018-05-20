@@ -108,11 +108,11 @@ img{
 }
 
 .header_pic.dark {
-    background-image: url("../img/header_bg_dark.gif");
+    background-image: url("../images/header_bg_dark.gif");
 }
 
 .header_pic.light {
-    background-image: url("../img/header_bg_light.gif");
+    background-image: url("../images/header_bg_light.gif");
 }
 
 .navbar-brand {
@@ -125,7 +125,7 @@ img{
 .navbar-brand .logotype {
     width: 220px;
     height: 80px;
-    background-image: url("../img/kinamania_logo.png");
+    background-image: url("../images/kinamania_logo.png");
     background-size: contain;
     transition: .2s;
 }
@@ -145,7 +145,7 @@ img{
     text-align: right;
     top: 79px;
     width: 116px;
-    background-image: url("../img/slogan.svg");
+    background-image: url("../images/slogan.svg");
     background-repeat: no-repeat;
 }
 
@@ -248,19 +248,19 @@ img{
 }
 
 .navbar-collapse .video .icon{
-    background-image: url("../img/video.svg");
+    background-image: url("../images/video.svg");
 }
 
 .navbar-collapse .music .icon{
-    background-image: url("../img/music.svg");
+    background-image: url("../images/music.svg");
 }
 
 .navbar-collapse .chronicles .icon{
-    background-image: url("../img/chronicles.svg");
+    background-image: url("../images/chronicles.svg");
 }
 
 .navbar-collapse .live .icon{
-    background-image: url("../img/live.svg");
+    background-image: url("../images/live.svg");
 }*/
 
 /* dropdown */
