@@ -50,9 +50,13 @@ h3, .h3 {
     margin-top: 1.6rem;
 }
 
+.result-title a {
+    font-size: 2.5rem;
+}
+
 .main_content h1,
 .main_content .h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 1.7rem;
 }
 
@@ -335,6 +339,10 @@ li.live > ul.dropdown-menu > li > .nav-link {
     margin-left: .7rem;
 }
 
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color: rgba(255, 255, 255, .8);
+}
+
 /* иконки */
 .navbar-collapse .nav-item::before {
     margin-right: 0.5rem;
@@ -466,6 +474,7 @@ li.live > ul.dropdown-menu > li > .nav-link {
     position: relative;
     width: 70%;
     z-index: 1;
+    padding-top: 50px;
 }
 
 .main_last_video h1 {
@@ -783,6 +792,10 @@ a.dropdown-item {
     width: auto;
 }
 
+.content_common > .videos-list::after {
+    display: none;
+}
+
 .videos-list::after {
     background-image: url("../images/fade.png");
     content: "";
@@ -1074,6 +1087,13 @@ a.dropdown-item {
 .floor-divider.one-day-childhood .container {
     margin: 0 auto;
 }
+.one-day-childhood h2 {
+    margin-top: 0rem !important;
+}
+.one-day-childhood .button_container {
+    padding-top: 0rem !important;
+}
+
 .kinaman_ico_bg {
     background: url('../images/kinaman.png');
     background-position: center;
@@ -1250,7 +1270,7 @@ p.photo_desc {
 }
 
 /*  side menu  */
-.side_menu {
+.main_content .side_menu {
     padding-left: 0;
     padding-right: 2rem;
 }
@@ -1395,6 +1415,10 @@ a:hover .background {
     margin: 0 -.7rem 3rem -.7rem;
 }
 
+#phocagallery {
+    padding-top: 2.5rem;
+}
+
 /*Pagination*/
 .page-item.disabled .page-link {
     color: rgb(35, 33, 43);
@@ -1472,7 +1496,8 @@ a:hover .background {
 }
 
 .dashed hr {
-    border-top-style: dashed;
+    /*border-top-style: dashed;*/
+    border-top: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
 
@@ -1482,6 +1507,15 @@ a:hover .background {
     list-style: none;
 }
 
+
+/*Таблицы*/
+table.table{
+    width: auto;
+}
+
+.table th, .table td {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
 
 
 

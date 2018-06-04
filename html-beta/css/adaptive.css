@@ -198,6 +198,10 @@
         border-top: none;
     }
 
+    .main_last_video {
+        padding-top: 10px;
+    }
+
     .main_content h1, .main_content .h1 {
         font-size: 2.2rem;
     }
@@ -457,7 +461,7 @@
 
 
 /*Large devices (desktops, 1580px and up)*/
-@media (min-width: 1579px) {
+@media (min-width: 1799px) {
 
     .header_pic {
         background-size: contain;
