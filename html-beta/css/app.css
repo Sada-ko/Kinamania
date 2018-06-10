@@ -64,6 +64,10 @@ h3, .h3 {
     margin: 0;
 }
 
+.youtube_video_link {
+    display: none !important;
+}
+
 a {
     transition: color 0.2s ease-out 0s, border-color 0.25s ease-out 0s, box-shadow 0.25s ease-out 0s;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
@@ -130,6 +134,7 @@ blockquote strong {
 .inviz {
     display: none !important;
 }
+
 .archive {
     display: none;
 }
@@ -146,7 +151,7 @@ blockquote strong {
     margin-left: -1rem;
 }
 
-.w-md-80{
+.w-md-80 {
     width: 80%;
 }
 
@@ -203,7 +208,7 @@ blockquote strong {
     width: 190px;
     height: 100px;
     position: relative;
-    margin-right: 4rem;
+    margin-right: 2rem;
     top: 0;
 }
 
@@ -302,7 +307,7 @@ li.live > ul.dropdown-menu > li.nav-item,
 li.live > ul.dropdown-menu > li > .nav-link {
     margin: 0 !important;
     background: none !important;
-    border :none !important;
+    border: none !important;
     color: rgb(192, 95, 102);
     position: relative;
     line-height: 1rem;
@@ -323,11 +328,15 @@ li.live > ul.dropdown-menu > li > .nav-link {
     display: none;
 }
 
-.navbar-collapse .nav-item{
-    margin: 0 1rem;
+.navbar-collapse .nav-item {
+    margin: 0 .5rem;
 }
 
-.navbar-collapse .nav-item:first-child, .nav-child .nav-item{
+.navbar-collapse .nav-item.live {
+    margin-left: 0;
+}
+
+.navbar-collapse .nav-item:first-child, .nav-child .nav-item {
     margin-left: 0 !important;
 }
 
@@ -343,9 +352,17 @@ li.live > ul.dropdown-menu > li > .nav-link {
     color: rgba(255, 255, 255, .8);
 }
 
+.donate-link {
+    position: absolute;
+}
+
+.donate-link img {
+    margin-right: 1rem;
+}
+
 /* иконки */
 .navbar-collapse .nav-item::before {
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
     transition: color 0.2s ease-out 0s, border-color 0.25s ease-out 0s, box-shadow 0.25s ease-out 0s;
     color: rgba(255, 255, 255, .8);
     font-size: 2.5rem;
@@ -564,7 +581,8 @@ li.live > ul.dropdown-menu > li > .nav-link {
     display: flex;
     padding-top: 10px;
 }
-.second_menu .search-form{
+
+.second_menu .search-form {
     width: 160px;
     display: inline-flex;
     text-align: left;
@@ -650,11 +668,11 @@ ul.dropdown-menu > li.nav-item {
     transition: .2s;
 }
 
-.dropdown-item.no-bullet::before{
+.dropdown-item.no-bullet::before {
     background-color: transparent;
 }
 
-.dropdown-item.coulthard::before{
+.dropdown-item.coulthard::before {
     background-size: contain;
     display: block;
     height: 12px;
@@ -665,7 +683,7 @@ ul.dropdown-menu > li.nav-item {
     background-image: url("../images/coulthard-flag.gif");
 }
 
-.dropdown-item.no-bullet:hover::before{
+.dropdown-item.no-bullet:hover::before {
     background-color: rgba(255, 255, 255, .8);
 }
 
@@ -777,7 +795,7 @@ a.dropdown-item {
     background-image: url("../images/flashback-icon.png");
 }
 
-.main_list a.list-header:after{
+.main_list a.list-header:after {
     background-image: url("../images/pixel-arrow.svg");
     content: "";
     display: inline-block;
@@ -788,7 +806,7 @@ a.dropdown-item {
     width: 8px;
 }
 
-.videos-list  {
+.videos-list {
     width: auto;
 }
 
@@ -1087,11 +1105,20 @@ a.dropdown-item {
 .floor-divider.one-day-childhood .container {
     margin: 0 auto;
 }
+
 .one-day-childhood h2 {
     margin-top: 0rem !important;
 }
+
 .one-day-childhood .button_container {
-    padding-top: 0rem !important;
+    padding-top: 1rem !important;
+}
+
+.one-day-childhood .button_container a {
+    margin-right: 2.5rem !important;
+    white-space: nowrap;
+    margin-bottom: .5rem;
+    display: inline-block;
 }
 
 .kinaman_ico_bg {
@@ -1100,6 +1127,7 @@ a.dropdown-item {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .floor-divider.kinaman .row > div {
     padding: 0 1rem;
 }
@@ -1202,11 +1230,11 @@ a.dropdown-item {
     margin-right: 0;
 }
 
-.playlist-section-menu .nav-item a span{
+.playlist-section-menu .nav-item a span {
     /*font-style: italic;*/
 }
 
-.season_year{
+.season_year {
     padding: .1rem .55rem;
 }
 
@@ -1233,7 +1261,7 @@ a.dropdown-item {
     max-width: 80%;
 }
 
-blockquote.blockquote{
+blockquote.blockquote {
     max-width: calc(100% + 1rem);
     padding: 1.5rem 2rem;
     background-color: rgb(26, 19, 31);
@@ -1265,7 +1293,7 @@ p.photo_desc {
     max-width: 100%;
 }
 
-.biopic-main{
+.biopic-main {
     width: 210px;
 }
 
@@ -1292,7 +1320,7 @@ p.photo_desc {
 }
 
 .side_menu .active,
-.side_menu .active a{
+.side_menu .active a {
     font-weight: bold;
     color: rgb(192, 95, 102);
 }
@@ -1352,6 +1380,10 @@ p.photo_desc {
 .gallery .gallery-item a {
     position: relative;
     overflow: hidden;
+}
+
+.gallery-item a .background img {
+    width: 100%;
 }
 
 .gallery-item a .background {
@@ -1448,19 +1480,15 @@ a:hover .background {
     background-color: rgb(35, 33, 43) !important;
 }
 
-
-
 /*АРХИВ*/
-.news-archive-item{
+.news-archive-item {
     margin-bottom: 2rem;
 }
 
-.news-archive-item .date{
+.news-archive-item .date {
     /*max-width: 160px;*/
     font-weight: 400;
 }
-
-
 
 /*Jouele*/
 .jouele-skin-dark .jouele-progress-line-bar_play.jouele-is-playing:after { /* Control 'elapsed' when playing */
@@ -1500,16 +1528,14 @@ a:hover .background {
     border-top: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
-
 .pagination-list li {
     display: inline-block;
     margin: 10px 15px;
     list-style: none;
 }
 
-
 /*Таблицы*/
-table.table{
+table.table {
     width: auto;
 }
 
@@ -1517,7 +1543,20 @@ table.table{
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/*404*/
 
+.error-404-body {
+    position: relative;
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+
+
+.error-404-body img {
+    position: absolute;
+    top: -60px;
+    left: 140px;
+}
 
 /*=========    content done    =============*/
 

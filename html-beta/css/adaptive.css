@@ -1,6 +1,10 @@
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) {
 
+    .header_container {
+        font-size: 100%;
+    }
+
     .navbar,
     .playlist .head-block {
         padding: 0.5rem 1rem;
@@ -57,6 +61,16 @@
         margin-top: -1rem;
     }
     /*Dropdown Menu*/
+
+    .donate-link {
+        right: 6rem;
+    }
+
+
+    .breaking-news .rubric {
+        text-align: center;
+        /*font-size: 1.25rem;*/
+    }
 
     .container-fluid {
         padding-left: 1rem;
@@ -133,6 +147,11 @@
         width: 70%;
     }
 
+    .one-day-childhood .button_container a {
+        margin-right: 1.25rem !important;
+        margin-left: 1.25rem;
+    }
+
     .open-video .open-video-switch{
         display: none !important;
     }
@@ -180,10 +199,6 @@
 
     .w-md-80{
         width: 100%;
-    }
-
-    .header_container {
-        /*height: 200px;*/
     }
 
     .navbar-brand {
@@ -277,7 +292,7 @@
     }
 
     .navbar-collapse {
-        padding-right: 0;
+        /*padding-right: 0;*/
     }
 
 
@@ -327,8 +342,12 @@
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+    .header_container {
+        font-size: 80%;
+    }
+
     .navbar-collapse .nav-item {
-        margin: 0 .5rem;
+        margin: 0 .25rem;
     }
 
     .main_last_video .right .video-preview{
@@ -343,6 +362,10 @@
     .playlist .head-block{
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+    .donate-link {
+        right: 2rem;
     }
 
     .one-day-childhood .row > div {
@@ -379,7 +402,7 @@
 @media (min-width: 992px) {
 
     .navbar-collapse .nav-item {
-        margin: 0 1rem;
+        margin: 0 .5rem;
     }
 
     .unit:first-child {
@@ -408,9 +431,17 @@
 /*Large devices (desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
+    .header_container {
+        font-size: 100%;
+    }
+
     .navbar,
     .playlist .head-block{
         padding: 0.5rem 4rem;
+    }
+
+    .donate-link{
+        right: 4rem;
     }
 
     /*.content_common{*/
