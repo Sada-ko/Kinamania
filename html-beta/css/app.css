@@ -1554,8 +1554,10 @@ table.table {
 
 .error-404-body img {
     position: absolute;
-    top: -60px;
+    top: -70px;
     left: 140px;
+    width: 717px !important;
+    max-width: none !important;
 }
 
 /*=========    content done    =============*/
