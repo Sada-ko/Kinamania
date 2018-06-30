@@ -134,7 +134,6 @@ blockquote strong {
 .inviz {
     display: none !important;
 }
-
 .archive {
     display: none;
 }
@@ -151,7 +150,7 @@ blockquote strong {
     margin-left: -1rem;
 }
 
-.w-md-80 {
+.w-md-80{
     width: 80%;
 }
 
@@ -336,7 +335,7 @@ li.live > ul.dropdown-menu > li > .nav-link {
     margin-left: 0;
 }
 
-.navbar-collapse .nav-item:first-child, .nav-child .nav-item {
+.navbar-collapse .nav-item:first-child, .nav-child .nav-item{
     margin-left: 0 !important;
 }
 
@@ -352,14 +351,26 @@ li.live > ul.dropdown-menu > li > .nav-link {
     color: rgba(255, 255, 255, .8);
 }
 
-.donate-link {
+ul li.donate-link {
     position: absolute;
+    right: 8rem;
+    background: url("../images/new-cola.gif") no-repeat center center;
+    width: 25px;
+    height: 48px;
+    display: block;
+    background-size: contain;
+    padding: 25px 0 0 45px;
+}
+
+.donate-link a {
+    display: block;
+    width: 100%;
+    height: 48px;
 }
 
 .donate-link img {
     margin-right: 1rem;
 }
-
 /* иконки */
 .navbar-collapse .nav-item::before {
     margin-right: 0.3rem;
@@ -581,8 +592,7 @@ li.live > ul.dropdown-menu > li > .nav-link {
     display: flex;
     padding-top: 10px;
 }
-
-.second_menu .search-form {
+.second_menu .search-form{
     width: 160px;
     display: inline-flex;
     text-align: left;
@@ -668,11 +678,11 @@ ul.dropdown-menu > li.nav-item {
     transition: .2s;
 }
 
-.dropdown-item.no-bullet::before {
+.dropdown-item.no-bullet::before{
     background-color: transparent;
 }
 
-.dropdown-item.coulthard::before {
+.dropdown-item.coulthard::before{
     background-size: contain;
     display: block;
     height: 12px;
@@ -683,7 +693,7 @@ ul.dropdown-menu > li.nav-item {
     background-image: url("../images/coulthard-flag.gif");
 }
 
-.dropdown-item.no-bullet:hover::before {
+.dropdown-item.no-bullet:hover::before{
     background-color: rgba(255, 255, 255, .8);
 }
 
@@ -795,7 +805,7 @@ a.dropdown-item {
     background-image: url("../images/flashback-icon.png");
 }
 
-.main_list a.list-header:after {
+.main_list a.list-header:after{
     background-image: url("../images/pixel-arrow.svg");
     content: "";
     display: inline-block;
@@ -806,7 +816,7 @@ a.dropdown-item {
     width: 8px;
 }
 
-.videos-list {
+.videos-list  {
     width: auto;
 }
 
@@ -1107,7 +1117,7 @@ a.dropdown-item {
 }
 
 .one-day-childhood h2 {
-    margin-top: 0rem !important;
+    margin-top: 0 !important;
 }
 
 .one-day-childhood .button_container {
@@ -1127,7 +1137,6 @@ a.dropdown-item {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
 .floor-divider.kinaman .row > div {
     padding: 0 1rem;
 }
@@ -1230,11 +1239,11 @@ a.dropdown-item {
     margin-right: 0;
 }
 
-.playlist-section-menu .nav-item a span {
+.playlist-section-menu .nav-item a span{
     /*font-style: italic;*/
 }
 
-.season_year {
+.season_year{
     padding: .1rem .55rem;
 }
 
@@ -1261,7 +1270,7 @@ a.dropdown-item {
     max-width: 80%;
 }
 
-blockquote.blockquote {
+blockquote.blockquote{
     max-width: calc(100% + 1rem);
     padding: 1.5rem 2rem;
     background-color: rgb(26, 19, 31);
@@ -1293,7 +1302,7 @@ p.photo_desc {
     max-width: 100%;
 }
 
-.biopic-main {
+.biopic-main{
     width: 210px;
 }
 
@@ -1320,7 +1329,7 @@ p.photo_desc {
 }
 
 .side_menu .active,
-.side_menu .active a {
+.side_menu .active a{
     font-weight: bold;
     color: rgb(192, 95, 102);
 }
@@ -1377,11 +1386,12 @@ p.photo_desc {
     padding: 0 .7rem;
 }
 
+
+
 .gallery .gallery-item a {
     position: relative;
     overflow: hidden;
 }
-
 .gallery-item a .background img {
     width: 100%;
 }
@@ -1480,15 +1490,19 @@ a:hover .background {
     background-color: rgb(35, 33, 43) !important;
 }
 
+
+
 /*АРХИВ*/
-.news-archive-item {
+.news-archive-item{
     margin-bottom: 2rem;
 }
 
-.news-archive-item .date {
+.news-archive-item .date{
     /*max-width: 160px;*/
     font-weight: 400;
 }
+
+
 
 /*Jouele*/
 .jouele-skin-dark .jouele-progress-line-bar_play.jouele-is-playing:after { /* Control 'elapsed' when playing */
@@ -1528,14 +1542,16 @@ a:hover .background {
     border-top: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
+
 .pagination-list li {
     display: inline-block;
     margin: 10px 15px;
     list-style: none;
 }
 
+
 /*Таблицы*/
-table.table {
+table.table{
     width: auto;
 }
 
