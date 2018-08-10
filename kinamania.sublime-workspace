@@ -42,6 +42,10 @@
 		"selected_items":
 		[
 			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
 				"add",
 				"Project: Add Folder"
 			],
@@ -74,13 +78,23 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/D/Work/Private/Kinamania/html-beta",
 		"/D/Work/Private/Kinamania/html-beta/css",
 		"/D/Work/Private/Kinamania/prod-test",
 		"/D/Work/Private/Kinamania/prod-test/css"
+=======
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Kinamania/html-beta",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Kinamania/html-beta/css",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Kinamania/prod-test",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Kinamania/prod-test/css"
+>>>>>>> 5fdc191c692a2171ca8ff4283e0f60c4c4246350
 	],
 	"file_history":
 	[
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Kinamania/html-beta/css/app.css",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Kinamania/prod-test/css/app.css",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Kinamania/prod-test/ftpsync.settings",
 		"/D/Work/Private/Kinamania/prod-test/css/app.css",
 		"/D/Work/Private/Kinamania/html-beta/css/app.css",
 		"/D/Work/Private/Kinamania/kinamania.sublime-project",
@@ -115,7 +129,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -250,7 +264,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -295,7 +309,7 @@
 	"project": "kinamania.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":

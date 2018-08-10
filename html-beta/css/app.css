@@ -625,7 +625,7 @@ ul li.donate-link {
 }
 
 .second_menu .search-form button {
-    border: none;
+    border: none !important;
     color: rgb(125, 125, 125);
     font-size: 0.9rem;
     padding: 0 0.5rem;
@@ -1130,7 +1130,7 @@ a.dropdown-item {
 .one-day-childhood .button_container a {
     margin-right: 2.5rem !important;
     white-space: nowrap;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     display: inline-block;
 }
 
@@ -1624,12 +1624,4 @@ table.table {
 
 .hpquote {
     margin-left: -0.3em;
-<<<<<<< HEAD
-<<<<<<< .merge_file_dHm509
 }
-=======
-}
->>>>>>> .merge_file_iGhBXN
-=======
-}
->>>>>>> origin/master
