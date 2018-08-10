@@ -625,7 +625,7 @@ ul li.donate-link {
 }
 
 .second_menu .search-form button {
-    border: medium none;
+    border: none !important;
     color: rgb(125, 125, 125);
     font-size: 0.9rem;
     padding: 0 0.5rem;
@@ -894,7 +894,7 @@ a.dropdown-item {
 }
 
 .main_list .video-link {
-    border: medium none;
+    border: none !important;
     display: inline-block;
     margin-bottom: 0.5rem;
 }

@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"im",
+				"important"
+			]
 		]
 	},
 	"buffers":
@@ -52,6 +56,7 @@
 	},
 	"expanded_folders":
 	[
+		"/D/Work/Private/Kinamania/html-beta",
 		"/D/Work/Private/Kinamania/prod-test",
 		"/D/Work/Private/Kinamania/prod-test/css"
 	],
@@ -91,7 +96,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -105,6 +110,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"second_menu .sea",
+			"second-menu .sea"
 		],
 		"highlight": true,
 		"in_selection": false,
