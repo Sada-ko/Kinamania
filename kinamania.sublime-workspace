@@ -11,6 +11,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "html-beta/css/app.css",
+			"settings":
+			{
+				"buffer_size": 30046,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "prod-test/css/app.css",
+			"settings":
+			{
+				"buffer_size": 29949,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -57,6 +75,7 @@
 	"expanded_folders":
 	[
 		"/D/Work/Private/Kinamania/html-beta",
+		"/D/Work/Private/Kinamania/html-beta/css",
 		"/D/Work/Private/Kinamania/prod-test",
 		"/D/Work/Private/Kinamania/prod-test/css"
 	],
@@ -129,8 +148,103 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "html-beta/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16572,
+								16573
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bs_sintax": "css",
+							"buffer_scroll_name": "6a5a40a4",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15642.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "prod-test/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16589,
+								16589
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bs_sintax": "css",
+							"buffer_scroll_name": "b26095cc",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15642.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
