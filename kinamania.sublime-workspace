@@ -21,10 +21,10 @@
 			}
 		},
 		{
-			"file": "kinamania.sublime-project",
+			"file": "prod-test/ftpsync.settings",
 			"settings":
 			{
-				"buffer_size": 85,
+				"buffer_size": 3058,
 				"line_ending": "Unix"
 			}
 		},
@@ -82,10 +82,10 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Work/Private/Kinamania/html-beta"
 	],
 	"file_history":
 	[
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Kinamania/kinamania.sublime-project",
 		"/D/Work/Private/Kinamania/html-beta/kinamania.sublime-project",
 		"/D/Work/Private/Kinamania/prod-test/css/app.css",
 		"/D/Work/Private/Kinamania/html-beta/css/app.css",
@@ -121,7 +121,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -206,7 +206,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15642.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -214,19 +214,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "kinamania.sublime-project",
+					"file": "prod-test/ftpsync.settings",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 85,
+						"buffer_size": 3058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								455,
+								455
 							]
 						],
 						"settings":
@@ -246,13 +246,14 @@
 									"selector": "text.html"
 								}
 							],
-							"bs_sintax": "json",
-							"buffer_scroll_name": "fba619b2",
+							"bs_sintax": "settings",
+							"buffer_scroll_name": "9358c6f0",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"spell_check": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/FTPSync/Settings.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -321,7 +322,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -366,7 +367,7 @@
 	"project": "kinamania.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
