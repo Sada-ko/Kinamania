@@ -178,7 +178,7 @@ blockquote strong {
 }
 
 .navbar-collapse {
-    padding-right: 220px;
+    padding-right: 200px;
 }
 
 .header_container {
@@ -1611,9 +1611,32 @@ table.table {
     margin-bottom: 1rem;
 }
 
+.footer .social{
+    margin-bottom: .5rem;
+}
+
 .footer .social a {
     /*color: rgb(9, 9, 21);*/
     border: none;
+}
+
+.footer h3{
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(125, 125, 125);
+    margin-top: 0;
+}
+
+.footer ul{
+    list-style: none;
+    padding: 0;
+    padding-right: .25rem;
+}
+
+.footer ul li{
+    margin-bottom: .3rem;
 }
 
 /*Висячая пунктуация*/
