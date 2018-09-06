@@ -131,6 +131,14 @@ blockquote strong {
     color: #7c7a7e;
 }
 
+.text-muted a{
+    color: #7c7a7e;
+}
+
+.text-muted a:hover{
+    color: rgb(192, 95, 102);
+}
+
 .inviz {
     display: none !important;
 }
