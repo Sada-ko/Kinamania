@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-muted\t(app.css)"
+			],
+			[
 				"im",
 				"important"
 			]
@@ -15,7 +19,7 @@
 			"file": "html-beta/css/app.css",
 			"settings":
 			{
-				"buffer_size": 29949,
+				"buffer_size": 30376,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -29,12 +33,21 @@
 			}
 		},
 		{
+			"file": "prod-test/index.php",
+			"settings":
+			{
+				"buffer_size": 10452,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "prod-test/css/app.css",
 			"settings":
 			{
-				"buffer_size": 29949,
+				"buffer_size": 30376,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -82,6 +95,10 @@
 	},
 	"expanded_folders":
 	[
+		"/D/Work/Private/Kinamania/html-beta",
+		"/D/Work/Private/Kinamania/html-beta/css",
+		"/D/Work/Private/Kinamania/prod-test",
+		"/D/Work/Private/Kinamania/prod-test/css"
 	],
 	"file_history":
 	[
@@ -121,7 +138,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -135,6 +152,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"muted",
 			"second_menu .sea",
 			"second-menu .sea"
 		],
@@ -154,7 +172,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -163,15 +181,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29949,
+						"buffer_size": 30376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2724,
+								2724
 							]
 						],
 						"settings":
@@ -180,6 +198,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -206,10 +228,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2183.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -244,6 +266,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"bs_sintax": "settings",
@@ -259,24 +285,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "prod-test/css/app.css",
+					"file": "prod-test/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29949,
+						"buffer_size": 10452,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16589,
-								16589
+								8376,
+								8376
 							]
 						],
 						"settings":
@@ -285,6 +311,56 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bs_sintax": "php",
+							"buffer_scroll_name": "c870ed7d",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2556.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "prod-test/css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2725,
+								2725
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -311,7 +387,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15642.0,
+						"translation.y": 2108.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -322,11 +398,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 39.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -367,7 +443,7 @@
 	"project": "kinamania.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
